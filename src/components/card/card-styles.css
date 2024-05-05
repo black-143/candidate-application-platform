@@ -1,0 +1,95 @@
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-company-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.card-company-info h2 {
+  margin: 4px 0;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.card-company-info p {
+  margin: 4px 0;
+  font-size: 18px;
+  color: #666;
+  text-transform: capitalize;
+}
+
+.estimated-salary {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.card-body p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posted-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.apply-link,
+.easy-apply-button,
+.referral-asks-button {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.easy-apply-button,
+.referral-asks-button {
+  margin-left: 18px;
+}
+
+.apply-link {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+}
+
+.easy-apply-button {
+  background-color: #00c853;
+  color: white;
+  border: none;
+}
+
+.referral-asks-button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+}

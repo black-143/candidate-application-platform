@@ -1,0 +1,8 @@
+/* components/card-list/card-list-component.css */
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 16px;
+}
