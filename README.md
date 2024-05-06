@@ -2,7 +2,7 @@ This platform provides a streamlined process for candidates to apply for positio
 
 To get started with the Candidate Application Platform, follow these steps:
 
-git clone https://github.com/black-143/candidate-application-platform.git
+**git clone** :https://github.com/black-143/candidate-application-platform.git
 
 Installation:
 Use **npm install** to install respective modules
